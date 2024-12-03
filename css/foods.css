@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.65)), url(/img/vigan-hotel-veneto-1-facade1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0, 0, 0, 0.65)), url(/SARABIA-WEBSITE/img/vigan-hotel-veneto-1-facade1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
