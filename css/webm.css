@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url(/img/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65px 1fr;
+    margin: 0;
+    height: 100vh;
+}
+
+.contents .where {
+    font-size: 60px;
+    margin-top: 9.5px;
+    margin-bottom: 10px;
+    margin-top: 130px;
+    font-family: 'coffee butter';
+    color: #ff9822;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    text-shadow: -10px 8px 8px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.contents .wheree {
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: 'coffee butter';
+    color: #ff9822;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    text-shadow: -10px 8px 8px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.contents .whereee {
+    font-size: 60px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-family: 'coffee butter';
+    color: #ff9822;
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    text-shadow: -10px 8px 8px rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 225, 188);
+    text-transform: uppercase;
+    
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #e04b00;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.line {
+    width: 550px;
+    height: 4px;
+    background: rgb(255, 208, 121);
+    margin: 10px auto;
+}
+
+
+footer p{
+    text-align: center;
+    padding: .8em;
+    background-color: #3d2615;
+    color: #fff;
+    font-size: 0.9em;
+    text-decoration: none;
+    font-family: 'lexend';
+    margin-top: 85px;
+}
+
+
+.histof {
+    width: 30px;
+    margin: 10px auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.histof .img1 {
+    width: 220px;
+    margin: 50%;
+    border-radius: 100px;
+    box-shadow: -6px 5px 5px rgb(20, 20, 20);
+}
+
+img {
+    transition: transform .3s ease;
+    box-shadow: -6px 5px 5px rgba(0, 0, 0, 0.649);
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 9px rgb(31, 31, 31);
+}
+
+.content p {
+    color: wheat;
+    text-align: center;
+    font-size: 2vmin;
+    text-shadow: -2px 6px 5px rgb(0, 0, 0);
+    margin: 300px; 
+    margin-top: 10px;
+    font-family: 'lexend';
+    padding: 25px;
+    letter-spacing: .10rem;
+    margin-bottom: 175px;
+    background-color: #3d261571;
+}
+
+.content .p1 {
+    color: wheat;
+    text-align: center;
+    font-size: 2vmin;
+    text-shadow: -2px 6px 5px rgb(0, 0, 0);
+    margin: 300px; 
+    margin-top: 10px;
+    font-family: 'lexend';
+    padding: 25px;
+    letter-spacing: .10rem;
+    margin-bottom: 30px;
+    background-color: #3d261571;
+}
+
+.content .p2 {
+    color: wheat;
+    text-align: center;
+    font-size: 2vmin;
+    text-shadow: -2px 6px 5px rgb(0, 0, 0);
+    margin: 300px; 
+    margin-top: 10px;
+    font-family: 'lexend';
+    padding: 25px;
+    letter-spacing: .10rem;
+    margin-bottom: 30px;
+    background-color: #3d261571;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background:#5a2e00;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 700px;
+    font-weight: bold;
+}
+
+.ctn:hover {
+    background: rgb(255, 215, 185);
+    color: #6e3900;
+    box-shadow: 2px 2px 5px rgb(31, 31, 31);
+    transform: scale(1.2);
+}
+
+
